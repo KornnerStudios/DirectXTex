@@ -16,6 +16,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{E14090
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texdiag", "Texdiag\texdiag_Desktop_2015.vcxproj", "{8E31A619-F4F8-413F-A973-4EE37B1AAA5D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXTexDLL", "DirectXTexDLL\DirectXTexDLL.vcxproj", "{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{371B9FA9-4C90-4AC6-A123-ACED756D6C77} = {371B9FA9-4C90-4AC6-A123-ACED756D6C77}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -86,6 +91,18 @@ Global
 		{8E31A619-F4F8-413F-A973-4EE37B1AAA5D}.Release|Win32.Build.0 = Release|Win32
 		{8E31A619-F4F8-413F-A973-4EE37B1AAA5D}.Release|x64.ActiveCfg = Release|x64
 		{8E31A619-F4F8-413F-A973-4EE37B1AAA5D}.Release|x64.Build.0 = Release|x64
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Debug|Win32.Build.0 = Debug|Win32
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Debug|x64.ActiveCfg = Debug|x64
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Debug|x64.Build.0 = Debug|x64
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Profile|Win32.ActiveCfg = Release|Win32
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Profile|Win32.Build.0 = Release|Win32
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Profile|x64.ActiveCfg = Release|x64
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Profile|x64.Build.0 = Release|x64
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Release|Win32.ActiveCfg = Release|Win32
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Release|Win32.Build.0 = Release|Win32
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Release|x64.ActiveCfg = Release|x64
+		{1728C6BE-57D9-4FD8-816B-A2C9B0042FD9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
