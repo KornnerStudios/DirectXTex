@@ -1,25 +1,5 @@
-// DirectXTexDLL.cpp : Defines the exported functions for the DLL application.
-//
-
 #include "stdafx.h"
 #include "DirectXTexDLL.h"
-
-
-// This is an example of an exported variable
-DIRECTXTEXDLL_API int nDirectXTexDLL=0;
-
-// This is an example of an exported function.
-DIRECTXTEXDLL_API int fnDirectXTexDLL(void)
-{
-	return 42;
-}
-
-// This is the constructor of a class that has been exported.
-// see DirectXTexDLL.h for the class definition
-CDirectXTexDLL::CDirectXTexDLL()
-{
-	return;
-}
 
 extern "C"
 DIRECTXTEXDLL_API UINT32
